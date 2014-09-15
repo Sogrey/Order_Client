@@ -15,6 +15,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
 	public final static String DB_NAME = "order.db";// 数据库名
 	public final static int DB_VERSION = 1;// 数据库版本
+	
 	public final static String TABLE_MENU = "menu";// 菜单表名
 	public final static String COLUMN_MENU_ID = "_id";// 菜单主键ID
 	public final static String COLUMN_MENU_MENUID = "menuid";// 菜品代号
@@ -24,6 +25,7 @@ public class DBHelper extends SQLiteOpenHelper {
 	public final static String COLUMN_MENU_UNITS = "units";// 菜单列名-单位
 	public final static String COLUMN_MENU_PIC = "pic";// 菜单列名-图片路径
 	public final static String COLUMN_MENU_REMARK = "remark";// 菜单列名-简介
+	
 	public final static String TABLE_TABLEID = "tableid";// 桌号表名
 	public final static String COLUMN_TABLE_ID = "_id";// 桌号主键ID
 	public final static String COLUMN_TABLE_TABLEID = "tableid";// 桌号列名-房间代号
