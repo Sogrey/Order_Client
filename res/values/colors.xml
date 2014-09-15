@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="dark_green">#ff16b31a</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="gray">#ffaaaaaa</color>
+    <color name="dark_gray">#ff777574</color>
+    <color name="transparent">#00000000</color>
+    <color name="tint_normaluse_battery">#ff17a221</color>
+</resources>

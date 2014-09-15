@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/menu_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+            <Gallery
+                android:id="@+id/glr_more_showpics"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="25dp"
+                android:layout_weight="1"
+                android:spacing="-50dp" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_more_checkout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_more_checkout_selector" />
+
+                <Button
+                    android:id="@+id/btn_more_change_table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_more_changetable_selector" />
+                <Button
+                    android:id="@+id/btn_more_combined_table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                     android:background="@drawable/btn_more_combined_table_selector"/>
+
+                <Button
+                    android:id="@+id/btn_more_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_more_update_selector"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    android:gravity="center_horizontal"
+    android:paddingLeft="25dp"
+    android:paddingTop="25dp"
+    android:paddingRight="25dp"
+    android:orientation="vertical" >
+
+    <Gallery
+        android:id="@+id/glr_main_showpics"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:spacing="-50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" >
+
+        <Button
+            android:id="@+id/btn_main_choosedish"
+            android:layout_width="69dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_main_choosedish_selector" />
+
+        <Button
+            android:id="@+id/btn_main_checkout"
+            android:layout_width="69dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_main_checkout_selector" />
+
+        <Button
+            android:id="@+id/btn_main_schedule"
+            android:layout_width="69dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_main_order_schedule_selector" />
+
+        <Button
+            android:id="@+id/btn_main_add"
+            android:layout_width="69dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_main_add_selector" />
+
+        <Button
+            android:id="@+id/btn_main_more"
+            android:layout_width="69dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_main_more_selector" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center"  >
+
+                <TextView
+                    android:id="@+id/txt_changetable_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/frontsize_normal"
+                    android:textColor="@color/black"
+                    android:text="TextView" />
+
+                <Spinner
+                    android:id="@+id/spr_changetable_a"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center"  >
+
+            <TextView
+                android:id="@+id/txt_changetable_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/frontsize_normal"
+                android:textColor="@color/black"
+                android:text="TextView" />
+
+            <Spinner
+                android:id="@+id/spr_changetable_b"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                 />
+
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_changetable_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_back_selector"
+                android:layout_margin="10dp"
+                 />
+
+            <Button
+                android:id="@+id/btn_changetable_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ok_selector"
+                android:layout_margin="10dp"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

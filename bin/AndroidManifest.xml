@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.feicui.order_client"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <!-- 扩展储存权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 連網權限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="edu.feicui.order_client.main.OrderApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+        <!-- Login 登录界面 -->
+        <activity
+            android:name="edu.feicui.order_client.login.LoginActivity"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 修改密码 -->
+        <activity
+            android:name="edu.feicui.order_client.login.ChagePwdActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- Activity 基础类 -->
+        <activity android:name="edu.feicui.order_client.base.BaseActivity" >
+        </activity>
+        <!-- DialogUtil 工具类 对话框 -->
+        <activity android:name="edu.feicui.order_client.util.DialogUtil" >
+        </activity>
+        <!-- MainActivity 主界面 -->
+        <activity
+            android:name="edu.feicui.order_client.main.MainActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- ChooseDishActivity 点菜界面 -->
+        <activity
+            android:name="edu.feicui.order_client.choosedish.ChooseDishActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- ChooseInfoActivity 点菜详情界面 -->
+        <activity
+            android:name="edu.feicui.order_client.choosedish.ChooseInfoActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- CheckoutActivity 结算界面 -->
+        <activity
+            android:name="edu.feicui.order_client.checkout.CheckoutActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- ProgressActivity 进度界面 -->
+        <activity
+            android:name="edu.feicui.order_client.progress.ProgressActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- MoreActivity 更多功能界面 -->
+        <activity
+            android:name="edu.feicui.order_client.more.MoreActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- OrderListActivity 查单界面 -->
+        <activity
+            android:name="edu.feicui.order_client.more.CheckOrderListActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- CheckOrderInfoActivity 查单详情界面 -->
+        <activity
+            android:name="edu.feicui.order_client.more.CheckOrderInfoActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- ChangeTableActivity 更改桌号界面 -->
+        <activity
+            android:name="edu.feicui.order_client.more.ChangeTableActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- UpdateActivity 数据更新界面 -->
+        <activity
+            android:name="edu.feicui.order_client.more.UpdateActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>
